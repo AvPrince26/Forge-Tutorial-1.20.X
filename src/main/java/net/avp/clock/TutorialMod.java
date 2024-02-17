@@ -31,6 +31,7 @@ public class TutorialMod
 
 
         ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -54,6 +55,7 @@ public class TutorialMod
             event.accept(ModItems.POOP);
             event.accept(ModItems.BOLELLI);
             event.accept(ModItems.ALEXANDER);
+            event.accept(ModBlocks.BLOCCO_MANUG);
         }
     }
 

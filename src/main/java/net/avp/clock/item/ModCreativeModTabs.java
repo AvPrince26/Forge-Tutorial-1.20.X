@@ -24,7 +24,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.BOLELLI.get());
 
                         output.accept(ModBlocks.BLOCCO_MERDA.get());
-
+                        output.accept(ModBlocks.BLOCCO_MANUG.get());
                     })
 
                     .build());
