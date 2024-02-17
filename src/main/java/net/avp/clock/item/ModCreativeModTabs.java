@@ -1,6 +1,7 @@
 package net.avp.clock.item;
 
 import net.avp.clock.TutorialMod;
+import net.avp.clock.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,9 @@ public class ModCreativeModTabs {
 
                         output.accept(ModItems.POOP.get());
                         output.accept(ModItems.BOLELLI.get());
+
+                        output.accept(ModBlocks.BLOCCO_MERDA.get());
+
                     })
 
                     .build());

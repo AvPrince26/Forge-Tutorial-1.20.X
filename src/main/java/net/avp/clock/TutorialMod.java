@@ -1,6 +1,7 @@
 package net.avp.clock;
 
 import com.mojang.logging.LogUtils;
+import net.avp.clock.block.ModBlocks;
 import net.avp.clock.item.ModCreativeModTabs;
 import net.avp.clock.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,9 +29,10 @@ public class TutorialMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModCreativeModTabs.register(modEventBus);
 
+        ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
