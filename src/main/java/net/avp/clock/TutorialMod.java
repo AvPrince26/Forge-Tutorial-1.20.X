@@ -57,6 +57,7 @@ public class TutorialMod
             event.accept(ModItems.ALEXANDER);
             event.accept(ModBlocks.BLOCCO_MANUG);
             event.accept(ModBlocks.BLOCCO_MERDA);
+            event.accept(ModBlocks.BLOCCO_BOLELLI);
         }
     }
 
