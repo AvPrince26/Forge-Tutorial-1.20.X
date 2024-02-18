@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+
+  "ingredients": [ {"item": "clock:blocco_platinum"} ],
+  "result": { "item": "clock:platinum", "count": 9 }
+}

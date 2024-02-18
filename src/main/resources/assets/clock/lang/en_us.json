@@ -2,10 +2,16 @@
   "item.clock.poop": "Poop",
   "item.clock.bolelli": "Bolelli",
   "item.clock.alexander": "Alex",
+  "item.clock.uranium": "Uranio",
+  "item.clock.platinum": "Platino",
 
   "block.clock.blocco_merda": "Blocco di Merda",
   "block.clock.blocco_manug": "Victory for ManuG",
-  "block.clock.blocco_bole": "Blocco Indistruttibile",
+  "block.clock.blocco_netheruranium": "Uranio antico",
+  "block.clock.blocco_uranium": "Blocco di Uranio",
+  "block.clock.blocco_platinum": "Blocco di Platino",
+  "block.clock.uranium_grezzo": "Uranio grezzo",
+  "block.clock.platinum_grezzo": "Platino grezzo",
 
   "creativetab_random_tab": "Random"
 }

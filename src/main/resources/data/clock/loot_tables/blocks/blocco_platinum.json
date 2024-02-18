@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 1.2,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "clock:blocco_platinum"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "clock:blocks/blocco_platinum"
+}

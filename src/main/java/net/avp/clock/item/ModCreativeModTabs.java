@@ -25,10 +25,17 @@ public class ModCreativeModTabs {
                         // Add custom items to the creative mode tab
                         output.accept(ModItems.POOP.get());
                         output.accept(ModItems.BOLELLI.get());
+                        output.accept(ModItems.URANIUM.get());
+                        output.accept(ModItems.PLATINUM.get());
 
                         output.accept(ModBlocks.BLOCCO_MERDA.get());
                         output.accept(ModBlocks.BLOCCO_MANUG.get());
-                        output.accept(ModBlocks.BLOCCO_BOLELLI.get());
+                        output.accept(ModBlocks.BLOCCO_NETHERURANIUM.get());
+                        output.accept(ModBlocks.BLOCCO_URANIUM.get());
+                        output.accept(ModBlocks.BLOCCO_PLATINUM.get());
+                        output.accept(ModBlocks.URANIUM_GREZZO.get());
+                        output.accept(ModBlocks.PLATINUM_GREZZO.get());
+
                     })
 
                     .build());

@@ -1,5 +1,7 @@
 {
   "values": [
-    "clock:blocco_bole"
+    "clock:blocco_netheruranium",
+    "clock:blocco_uranium",
+    "clock:uranium_grezzo"
   ]
 }

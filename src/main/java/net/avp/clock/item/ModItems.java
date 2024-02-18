@@ -18,6 +18,10 @@ public static final RegistryObject<Item> BOLELLI = ITEMS.register("bolelli",
         () ->new Item(new Item.Properties()));
 public static final RegistryObject<Item> ALEXANDER = ITEMS.register("alexander",
         () ->new Item(new Item.Properties()));
+public static final RegistryObject<Item> URANIUM = ITEMS.register("uranium",
+        () ->new Item(new Item.Properties()));
+public static final RegistryObject<Item> PLATINUM = ITEMS.register("platinum",
+        () ->new Item(new Item.Properties()));
 
 // Register the DeferredRegister
 public static void  register(IEventBus eventBus) {

@@ -55,9 +55,17 @@ public class TutorialMod
             event.accept(ModItems.POOP);
             event.accept(ModItems.BOLELLI);
             event.accept(ModItems.ALEXANDER);
+            event.accept(ModItems.URANIUM);
+            event.accept(ModItems.PLATINUM);
+
             event.accept(ModBlocks.BLOCCO_MANUG);
             event.accept(ModBlocks.BLOCCO_MERDA);
-            event.accept(ModBlocks.BLOCCO_BOLELLI);
+            event.accept(ModBlocks.BLOCCO_NETHERURANIUM);
+            event.accept(ModBlocks.BLOCCO_URANIUM);
+            event.accept(ModBlocks.BLOCCO_PLATINUM);
+            event.accept(ModBlocks.URANIUM_GREZZO);
+            event.accept(ModBlocks.PLATINUM_GREZZO);
+
         }
     }
 

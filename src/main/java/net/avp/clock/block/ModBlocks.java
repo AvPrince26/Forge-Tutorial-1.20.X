@@ -23,9 +23,27 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLOCCO_MANUG = registerBlock("blocco_manug",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.GRAVEL)));
 
-    public static final RegistryObject<Block> BLOCCO_BOLELLI = registerBlock("blocco_bole",
+
+
+    public static final RegistryObject<Block> BLOCCO_NETHERURANIUM = registerBlock("blocco_netheruranium",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)
-                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(100,600)));
+                    .strength(15f).requiresCorrectToolForDrops(), UniformInt.of(100,600)));
+    public static final RegistryObject<Block> BLOCCO_URANIUM = registerBlock("blocco_uranium",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)
+                    .strength(7f).requiresCorrectToolForDrops(), UniformInt.of(100,600)));
+    public static final RegistryObject<Block> BLOCCO_PLATINUM = registerBlock("blocco_platinum",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)
+                    .strength(7f).requiresCorrectToolForDrops(), UniformInt.of(100,600)));
+
+    public static final RegistryObject<Block> URANIUM_GREZZO = registerBlock("uranium_grezzo",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)
+                    .strength(7f).requiresCorrectToolForDrops(), UniformInt.of(100,600)));
+    public static final RegistryObject<Block> PLATINUM_GREZZO = registerBlock("platinum_grezzo",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)
+                    .strength(7f).requiresCorrectToolForDrops(), UniformInt.of(100,600)));
+
+
+
     // Generic method to register a block
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
