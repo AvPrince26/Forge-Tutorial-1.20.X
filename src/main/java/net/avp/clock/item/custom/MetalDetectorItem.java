@@ -1,5 +1,6 @@
 package net.avp.clock.item.custom;
 
+import net.avp.clock.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -61,7 +62,6 @@ player.sendSystemMessage(Component.literal("Found " + I18n.get(block.getDescript
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.is(Blocks.IRON_ORE) || state.is(Blocks.COPPER_ORE) || state.is(Blocks.EMERALD_ORE)
-                || state.is(Blocks.REDSTONE_ORE);
+        return state.is(ModTags.Blocks.METAL_DETECTOR_VALUABLES);
     }
 }
