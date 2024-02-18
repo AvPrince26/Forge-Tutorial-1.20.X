@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+
+  "ingredients": [ {"item": "clock:blocco_merda"} ],
+  "result": { "item": "clock:poop", "count": 9 }
+}
