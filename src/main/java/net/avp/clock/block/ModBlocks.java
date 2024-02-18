@@ -1,6 +1,7 @@
 package net.avp.clock.block;
 
 import net.avp.clock.TutorialMod;
+import net.avp.clock.block.custom.soundBlock;
 import net.avp.clock.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -42,6 +43,9 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)
                     .strength(7f).requiresCorrectToolForDrops(), UniformInt.of(1,6)));
 
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new soundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.GRAVEL)));
 
 
     // Generic method to register a block

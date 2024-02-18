@@ -28,6 +28,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.URANIUM.get());
                         output.accept(ModItems.PLATINUM.get());
                         output.accept(ModItems.METAL_DETECTOR.get());
+                        output.accept(ModItems.STRAWBERRY.get());
 
                         output.accept(ModBlocks.BLOCCO_MERDA.get());
                         output.accept(ModBlocks.BLOCCO_MANUG.get());
@@ -36,6 +37,7 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.BLOCCO_PLATINUM.get());
                         output.accept(ModBlocks.URANIUM_GREZZO.get());
                         output.accept(ModBlocks.PLATINUM_GREZZO.get());
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
 
                     })
 

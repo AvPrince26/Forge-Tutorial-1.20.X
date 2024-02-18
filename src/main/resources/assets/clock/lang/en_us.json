@@ -5,6 +5,7 @@
   "item.clock.uranium": "Uranio",
   "item.clock.platinum": "Platino",
   "item.clock.metal_detector": "Metal Detector",
+  "item.clock.strawberry": "Fragola",
 
   "block.clock.blocco_merda": "Blocco di Merda",
   "block.clock.blocco_manug": "Victory for ManuG",
@@ -13,6 +14,7 @@
   "block.clock.blocco_platinum": "Blocco di Platino",
   "block.clock.uranium_grezzo": "Uranio grezzo",
   "block.clock.platinum_grezzo": "Platino grezzo",
+  "block.clock.sound_block": "Sound Block",
 
   "creativetab_random_tab": "Random"
 }

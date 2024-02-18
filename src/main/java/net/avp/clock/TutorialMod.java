@@ -58,6 +58,7 @@ public class TutorialMod
             event.accept(ModItems.URANIUM);
             event.accept(ModItems.PLATINUM);
             event.accept(ModItems.METAL_DETECTOR);
+            event.accept(ModItems.STRAWBERRY);
 
             event.accept(ModBlocks.BLOCCO_MANUG);
             event.accept(ModBlocks.BLOCCO_MERDA);
@@ -66,6 +67,7 @@ public class TutorialMod
             event.accept(ModBlocks.BLOCCO_PLATINUM);
             event.accept(ModBlocks.URANIUM_GREZZO);
             event.accept(ModBlocks.PLATINUM_GREZZO);
+            event.accept(ModBlocks.SOUND_BLOCK);
 
         }
     }
