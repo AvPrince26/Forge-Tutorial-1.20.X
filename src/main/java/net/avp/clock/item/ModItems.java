@@ -1,6 +1,7 @@
 package net.avp.clock.item;
 
 import net.avp.clock.TutorialMod;
+import net.avp.clock.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,6 +23,8 @@ public static final RegistryObject<Item> URANIUM = ITEMS.register("uranium",
         () ->new Item(new Item.Properties()));
 public static final RegistryObject<Item> PLATINUM = ITEMS.register("platinum",
         () ->new Item(new Item.Properties()));
+    public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
+            () ->new MetalDetectorItem(new Item.Properties().durability(100)));
 
 // Register the DeferredRegister
 public static void  register(IEventBus eventBus) {

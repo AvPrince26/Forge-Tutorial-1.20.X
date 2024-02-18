@@ -1,5 +1,10 @@
 {
   "values": [
-    "clock:blocco_manug"
+    "clock:blocco_manug",
+    "clock:block/uranium_grezzo",
+    "clock:block/platinum_grezzo",
+    "clock:blocks/blocco_platinum",
+    "clock:blocks/blocco_uranium",
+    "clock:blocco_netheruranium"
   ]
 }

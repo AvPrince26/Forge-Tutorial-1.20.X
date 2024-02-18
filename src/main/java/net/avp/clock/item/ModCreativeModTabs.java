@@ -27,6 +27,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.BOLELLI.get());
                         output.accept(ModItems.URANIUM.get());
                         output.accept(ModItems.PLATINUM.get());
+                        output.accept(ModItems.METAL_DETECTOR.get());
 
                         output.accept(ModBlocks.BLOCCO_MERDA.get());
                         output.accept(ModBlocks.BLOCCO_MANUG.get());

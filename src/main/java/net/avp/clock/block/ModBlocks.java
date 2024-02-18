@@ -27,20 +27,20 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BLOCCO_NETHERURANIUM = registerBlock("blocco_netheruranium",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)
-                    .strength(15f).requiresCorrectToolForDrops(), UniformInt.of(100,600)));
+                    .strength(15f).requiresCorrectToolForDrops(), UniformInt.of(1,10)));
     public static final RegistryObject<Block> BLOCCO_URANIUM = registerBlock("blocco_uranium",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)
-                    .strength(7f).requiresCorrectToolForDrops(), UniformInt.of(100,600)));
+                    .strength(7f).requiresCorrectToolForDrops(), UniformInt.of(1,6)));
     public static final RegistryObject<Block> BLOCCO_PLATINUM = registerBlock("blocco_platinum",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)
-                    .strength(7f).requiresCorrectToolForDrops(), UniformInt.of(100,600)));
+                    .strength(7f).requiresCorrectToolForDrops(), UniformInt.of(1,6)));
 
     public static final RegistryObject<Block> URANIUM_GREZZO = registerBlock("uranium_grezzo",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)
-                    .strength(7f).requiresCorrectToolForDrops(), UniformInt.of(100,600)));
+                    .strength(7f).requiresCorrectToolForDrops(), UniformInt.of(1,6)));
     public static final RegistryObject<Block> PLATINUM_GREZZO = registerBlock("platinum_grezzo",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)
-                    .strength(7f).requiresCorrectToolForDrops(), UniformInt.of(100,600)));
+                    .strength(7f).requiresCorrectToolForDrops(), UniformInt.of(1,6)));
 
 
 

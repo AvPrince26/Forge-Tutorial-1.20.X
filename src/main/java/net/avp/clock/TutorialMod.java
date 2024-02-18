@@ -57,6 +57,7 @@ public class TutorialMod
             event.accept(ModItems.ALEXANDER);
             event.accept(ModItems.URANIUM);
             event.accept(ModItems.PLATINUM);
+            event.accept(ModItems.METAL_DETECTOR);
 
             event.accept(ModBlocks.BLOCCO_MANUG);
             event.accept(ModBlocks.BLOCCO_MERDA);
